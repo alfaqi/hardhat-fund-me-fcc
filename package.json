@@ -1,0 +1,27 @@
+{
+  "name": "hardhat-fund-me-fcc",
+  "version": "1.0.0",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.3.0-beta.13",
+    "dotenv": "^16.0.3",
+    "hardhat": "^2.14.0",
+    "solhint": "^3.4.1"
+  },
+  "devDependencies": {
+    "@chainlink/contracts": "^0.6.1",
+    "@nomiclabs/hardhat-solhint": "^3.0.1",
+    "hardhat-deploy": "^0.11.29",
+    "solidity-coverage": "^0.8.2"
+  },
+  "scripts": {
+    "test": "npx hardhat test",
+    "test:staging": "npx hardhat test --network goerli",
+    "node": "npx hardhat node",
+    "compile": "npx hardhat compile",
+    "clean": "npx hardhat clean"
+  }
+}
